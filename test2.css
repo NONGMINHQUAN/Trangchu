@@ -1,6 +1,4 @@
-
-
-    /* Reset CSS */
+/* Reset CSS */
     * {
     margin: 0;
     padding: 0;
@@ -16,9 +14,8 @@ body {
     position: relative;
     
     }
-    
-    /* Lớp phủ mờ giúp chữ dễ đọc */
-    body::before {
+/* Lớp phủ mờ giúp chữ dễ đọc */
+body::before {
     content: "";
     position: fixed;
     top: 0; left: 0; right: 0; bottom: 0;
@@ -263,7 +260,6 @@ nav {
     position: relative;
 }
 
-/* Container cho 2 dòng */
 .slide-rows {
     display: flex;
     flex-direction: column;
@@ -275,7 +271,6 @@ nav {
     animation: scrollLeft 30s linear infinite;
 }
 
-/* Dòng chạy thứ hai (ngược hướng) */
 .slide-row-2 {
     animation: scrollRight 35s linear infinite;
 }
